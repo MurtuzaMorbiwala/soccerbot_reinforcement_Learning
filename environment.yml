@@ -1,0 +1,9 @@
+name: soccerbot_env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - tensorflow
+  - numpy
+  - matplotlib
+  - ipykernel
