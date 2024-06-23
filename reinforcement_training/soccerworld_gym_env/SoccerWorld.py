@@ -102,7 +102,27 @@ class Soccerworld:
             plt.plot(goal[0], goal[1], 'ro', color='g')
         plt.grid(True)
         plt.title('Reward=' + str(self.currentstate[1]) + ' End=' + str(self.currentstate[2]))
-        plt.show()
+        #plt.show()
+        #save fig in abc.png is not saving a png
+        # Get the current directory
+        import os
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Specify the folder where you want to save the file
+        save_folder = os.path.join(current_dir, 'output')
+
+        # Create the folder if it doesn't exist
+        if not os.path.exists(save_folder):
+            os.makedirs(save_folder)
+
+        # Save the file in the specified folder
+        plt.savefig(os.path.join(save_folder, 'frame.png'), dpi=300)
+        print('Frame saved'+save_folder) 
+        plt.close()
+          
+        
+        return 
+    
         
     def getstate(self,xa,ya,xb,yb):
         statetoreturn = [x for x in self.states if x[3] == xa and x[4] == ya and x[5] == xb and x[6] == yb][0]
