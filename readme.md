@@ -1,47 +1,44 @@
-Hackathon - Reinforcement Learning - Deep Q Learning - Soccer Bot
+# Soccer Bot: Reinforcement Learning with Deep Q Learning
 
-Developed env/gym in python to train bot.
+## Project Overview
 
-Used a Deep Q Learning algorithm to train the Agent in this env.
+This project implements a Soccer Bot using Reinforcement Learning, specifically Deep Q Learning. The bot is trained in a simulated environment and then transferred to a physical Arduino robot.
 
-![alt text](/docs/SoccerBot_Agent.gif)
+![Soccer Bot Agent](docs/SoccerBot_Agent.gif)
 
+## Key Components
 
-The Agent learns through multiple episodes how to solve the environment
+1. **Custom Gym Environment**: Developed in Python to train the bot.
+2. **Deep Q Learning Algorithm**: Used to train the Agent in the custom environment.
+3. **OpenCV Integration**: For object detection through a fixed camera.
+4. **Arduino Robot**: Physical implementation of the trained agent.
 
-Number of Goals ![alt text](/docs/TrainingCurve.png)
-                         Number of episodes. 
+## Training Results
 
-Training Curve - Number of times Agent is able to get the ball to the goal (reward) in every 50 episodes  
+The Agent learns through multiple episodes how to solve the environment. The training curve below shows the number of goals scored over episodes:
 
-As we can see eventually the Agent is able to learn a Policy that is able to take the goal to the ball in each episode reliably
+![Training Curve](docs/TrainingCurve.png)
 
+As demonstrated, the Agent eventually learns a policy that can consistently guide the ball to the goal in each episode.
 
-Then OpenCV is used to identify these objects through a fixed camera. This input is given to the arduino robot that moves an object to a goal. 
+## Physical Implementation
 
-![alt text](/docs/Video_Clip_Soccer_Bot.gif)
+After training, we used OpenCV for real-time object detection via a fixed camera. This input is then provided to an Arduino robot that moves an object towards a goal.
 
-Video Clip Showing Arduino Robot. 
+![Arduino Robot in Action](docs/Video_Clip_Soccer_Bot.gif)
 
-Here is the Arduino Robot Scoring its first goal in the hackathon
+The gif above shows the Arduino Robot scoring its first goal during the hackathon!
 
+## Environment Setup
 
+To set up the project environment:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Create Environment
+```bash
+# Create the environment
 conda env create -f environment.yml
+
+# Activate the environment
 conda activate soccerbot_env
+
+# Update the environment (if needed)
 conda env update --file environment.yml --prune
