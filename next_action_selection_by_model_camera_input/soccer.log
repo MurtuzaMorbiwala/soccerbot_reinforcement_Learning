@@ -1,0 +1,215 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:Episode number 0 completed with reward -99
+DEBUG:root:Average reward after 0 episodes = : -99.0 
+DEBUG:root:The weights after 0 episodes are = : [[ 0.00313831  0.00221768  0.00548277  0.0082736 ]
+ [ 0.00947835  0.00621074  0.00220447  0.0077446 ]
+ [ 0.0015496   0.00542227  0.0059979   0.00990343]
+ ..., 
+ [ 0.00582951  0.00275995  0.0008981   0.00040235]
+ [ 0.0072282   0.00025465  0.00246898  0.00461643]
+ [ 0.00781894  0.00816637  0.00713191  0.00816526]] 
+DEBUG:root:Episode number 1 completed with reward -99
+DEBUG:root:Episode number 2 completed with reward -99
+DEBUG:root:Episode number 3 completed with reward 31
+DEBUG:root:Episode number 4 completed with reward -89
+DEBUG:root:Episode number 5 completed with reward -99
+DEBUG:root:Episode number 6 completed with reward -102
+DEBUG:root:Episode number 7 completed with reward -99
+DEBUG:root:Episode number 8 completed with reward -99
+DEBUG:root:Episode number 9 completed with reward -98
+DEBUG:root:Episode number 10 completed with reward -99
+DEBUG:root:Episode number 11 completed with reward 19
+DEBUG:root:Episode number 12 completed with reward -99
+DEBUG:root:Episode number 13 completed with reward -99
+DEBUG:root:Episode number 14 completed with reward -99
+DEBUG:root:Episode number 15 completed with reward -99
+DEBUG:root:Episode number 16 completed with reward -106
+DEBUG:root:Episode number 17 completed with reward -99
+DEBUG:root:Episode number 18 completed with reward -99
+DEBUG:root:Episode number 19 completed with reward -99
+DEBUG:root:Episode number 20 completed with reward -99
+DEBUG:root:Episode number 21 completed with reward 71
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:Episode number 0 completed with reward 0
+DEBUG:root:Average reward after 0 episodes = : -99.0 
+DEBUG:root:The weights after 0 episodes are = : [[ 0.00414113  0.00347644  0.00366226  0.00188433]
+ [ 0.00840558  0.00877101  0.00467736  0.00208289]
+ [ 0.0080847   0.00802222  0.00736339  0.00786787]
+ ..., 
+ [ 0.0070306   0.00162986  0.00766385  0.00472915]
+ [ 0.00138556  0.00806861  0.00798946  0.00229232]
+ [ 0.00082851  0.00280432  0.00094003  0.00723696]] 
+DEBUG:root:Episode number 1 completed with reward 100
+DEBUG:root:Episode number 2 completed with reward 0
+DEBUG:root:Episode number 3 completed with reward 0
+DEBUG:root:Episode number 4 completed with reward 0
+DEBUG:root:Episode number 5 completed with reward 0
+DEBUG:root:Episode number 6 completed with reward 0
+DEBUG:root:Episode number 7 completed with reward 100
+DEBUG:root:Episode number 8 completed with reward 100
+DEBUG:root:Episode number 9 completed with reward 100
+DEBUG:root:Episode number 10 completed with reward 0
+DEBUG:root:Episode number 11 completed with reward 0
+DEBUG:root:Episode number 12 completed with reward 0
+DEBUG:root:Episode number 13 completed with reward 0
+DEBUG:root:Episode number 14 completed with reward 100
+DEBUG:root:Episode number 15 completed with reward 0
+DEBUG:root:Episode number 16 completed with reward 0
+DEBUG:root:Episode number 17 completed with reward 100
+DEBUG:root:Episode number 18 completed with reward 0
+DEBUG:root:Episode number 19 completed with reward 0
+DEBUG:root:Episode number 20 completed with reward 0
+DEBUG:root:Episode number 21 completed with reward 0
+DEBUG:root:Episode number 22 completed with reward 0
+DEBUG:root:Episode number 23 completed with reward 0
+DEBUG:root:Episode number 24 completed with reward 0
+DEBUG:root:Episode number 25 completed with reward 0
+DEBUG:root:Episode number 26 completed with reward 0
+DEBUG:root:Episode number 27 completed with reward 0
+DEBUG:root:Episode number 28 completed with reward 0
+DEBUG:root:Episode number 29 completed with reward 0
+DEBUG:root:Episode number 30 completed with reward 0
+DEBUG:root:Episode number 31 completed with reward 0
+DEBUG:root:Episode number 32 completed with reward 0
+DEBUG:root:Episode number 33 completed with reward 0
+DEBUG:root:Episode number 34 completed with reward 0
+DEBUG:root:Episode number 35 completed with reward 0
+DEBUG:root:Episode number 36 completed with reward 0
+DEBUG:root:Episode number 37 completed with reward 0
+DEBUG:root:Episode number 38 completed with reward 0
+DEBUG:root:Episode number 39 completed with reward 0
+DEBUG:root:Episode number 40 completed with reward 0
+DEBUG:root:Episode number 41 completed with reward 0
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
