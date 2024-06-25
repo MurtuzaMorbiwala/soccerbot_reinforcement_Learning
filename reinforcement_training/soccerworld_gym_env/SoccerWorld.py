@@ -2,7 +2,7 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
-
+import os
 
 class Soccerworld:
     Xmin = 1
@@ -88,41 +88,40 @@ class Soccerworld:
         self.currentstate = newstate
         return newstate[0], newstate[1], newstate[2]
 
+    # def render(self):
+    #     line = [x for x in range(1, 9)]
+    #     line1 = [1 for x in range(1, 9)]
+    #     line2 = [8 for x in range(1, 9)]
+    #     plt.axis((0, 9, 0, 9))
+    #     plt.plot(line1, line, color='r')
+    #     plt.plot(line2, line, color='r')
+    #     plt.plot(line, line2, color='r')
+    #     plt.plot(self.currentstate[3], self.currentstate[4], 'ro', color='y')
+    #     plt.plot(self.currentstate[5], self.currentstate[6], 'ro', color='b')
+    #     for goal in self.goalstates:
+    #         plt.plot(goal[0], goal[1], 'ro', color='g')
+    #     plt.grid(True)
+    #     plt.title('Reward=' + str(self.currentstate[1]) + ' End=' + str(self.currentstate[2]))
+        
+    #     return plt
     def render(self):
         line = [x for x in range(1, 9)]
         line1 = [1 for x in range(1, 9)]
         line2 = [8 for x in range(1, 9)]
-        plt.axis((0, 9, 0, 9))
-        plt.plot(line1, line, color='r')
-        plt.plot(line2, line, color='r')
-        plt.plot(line, line2, color='r')
-        plt.plot(self.currentstate[3], self.currentstate[4], 'ro', color='y')
-        plt.plot(self.currentstate[5], self.currentstate[6], 'ro', color='b')
+        fig, ax = plt.subplots(figsize=(8, 8))
+        ax.axis((0, 9, 0, 9))
+        ax.plot(line1, line, color='r')
+        ax.plot(line2, line, color='r')
+        ax.plot(line, line2, color='r')
+        ax.plot(self.currentstate[3], self.currentstate[4], 'ro', color='y')
+        ax.plot(self.currentstate[5], self.currentstate[6], 'ro', color='b')
         for goal in self.goalstates:
-            plt.plot(goal[0], goal[1], 'ro', color='g')
-        plt.grid(True)
-        plt.title('Reward=' + str(self.currentstate[1]) + ' End=' + str(self.currentstate[2]))
-        #plt.show()
-        #save fig in abc.png is not saving a png
-        # Get the current directory
-        import os
-        current_dir = os.path.dirname(os.path.abspath(__file__))
+            ax.plot(goal[0], goal[1], 'ro', color='g')    
+        ax.grid(True)
+        ax.set_title('Reward=' + str(self.currentstate[1]) + ' End=' + str(self.currentstate[2]))
+        return fig,ax
 
-        # Specify the folder where you want to save the file
-        save_folder = os.path.join(current_dir, 'output')
 
-        # Create the folder if it doesn't exist
-        if not os.path.exists(save_folder):
-            os.makedirs(save_folder)
-
-        # Save the file in the specified folder
-        plt.savefig(os.path.join(save_folder, 'frame.png'), dpi=300)
-        print('Frame saved'+save_folder) 
-        plt.close()
-          
-        
-        return 
-    
         
     def getstate(self,xa,ya,xb,yb):
         statetoreturn = [x for x in self.states if x[3] == xa and x[4] == ya and x[5] == xb and x[6] == yb][0]
